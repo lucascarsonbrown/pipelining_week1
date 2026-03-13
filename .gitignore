@@ -13,5 +13,8 @@ venv/
 # Data files — users bring their own (too large for git)
 data/
 
+# Scraper output backups
+xlsx_backup/
+
 # OS files
 .DS_Store
