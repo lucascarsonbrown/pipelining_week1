@@ -1,0 +1,17 @@
+# Credentials - NEVER commit these
+.env
+*.json
+!package.json
+service-account-key*.json
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Data files — users bring their own (too large for git)
+data/
+
+# OS files
+.DS_Store
